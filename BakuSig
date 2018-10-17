@@ -1,0 +1,54 @@
+.dipl {
+  position: relative;
+  box-sizing: border-box;
+  width: 450px;
+  height: 225px;
+  margin: auto;
+  border: 2px solid #c12c2c;
+  background: #201d1a;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.face {
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  top: -51px;
+  width: 125px;
+  height: 150%;
+  color: transparent;
+  background: url(https://i.pinimg.com/564x/14/ab/95/14ab95fef5d3af66de89f9eb77a89918.jpg) -20px/100%;
+  background-size: cover;
+  -webkit-transform: rotate(20deg);
+}
+#help {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 300px;
+  width: 60px;
+  left: 80px;
+  top: -30px;
+  margin: 0px 10px;
+  background: #c12c2c;
+  color: #f6f2c3;
+  -webkit-transform: rotate(20deg);
+  -webkit-transition: 0.5s all;
+}
+#lick {
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-family: Crimson Text;
+  font-size: 25px;
+  position: relative;
+  top: 100px;
+  left: -45px;
+  -webkit-transform: rotate(270deg);
+}
+#help:hover {
+  background: #f6f2c3;
+  color: #c12c2c;
+  -webkit-transition: 0.5s all;
+}
